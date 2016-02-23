@@ -1,0 +1,43 @@
+{
+  "timestamp": 1455957843891,
+  "webhookEvent": "worklog_deleted",
+  "worklog": {
+    "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issue/10000/worklog/10101",
+    "author": {
+      "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+      "name": "admin",
+      "key": "admin",
+      "avatarUrls": {
+        "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+        "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+        "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+        "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+      },
+      "displayName": "Shadrin Maxim [Administrator]",
+      "active": true,
+      "timeZone": "Europe/Warsaw"
+    },
+    "updateAuthor": {
+      "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+      "name": "admin",
+      "key": "admin",
+      "avatarUrls": {
+        "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+        "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+        "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+        "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+      },
+      "displayName": "Shadrin Maxim [Administrator]",
+      "active": true,
+      "timeZone": "Europe/Warsaw"
+    },
+    "comment": "dsfafsdfsadf",
+    "created": "2016-02-20T10:20:50.505+0200",
+    "updated": "2016-02-20T10:20:50.505+0200",
+    "started": "2016-02-20T10:20:00.000+0200",
+    "timeSpent": "12m",
+    "timeSpentSeconds": 720,
+    "id": "10101",
+    "issueId": "10000"
+  }
+}

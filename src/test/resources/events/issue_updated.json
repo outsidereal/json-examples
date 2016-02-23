@@ -1,0 +1,571 @@
+{
+  "timestamp": 1455968657174,
+  "webhookEvent": "jira:issue_updated",
+  "user": {
+    "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+    "name": "admin",
+    "key": "admin",
+    "emailAddress": "m.shadrin@gmail.com",
+    "avatarUrls": {
+      "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+      "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+      "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+      "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+    },
+    "displayName": "Shadrin Maxim [Administrator]",
+    "active": true,
+    "timeZone": "Europe/Warsaw"
+  },
+  "issue": {
+    "id": "10100",
+    "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issue/10100",
+    "key": "TP-5",
+    "fields": {
+      "issuetype": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issuetype/10002",
+        "id": "10002",
+        "description": "A task that needs to be done.",
+        "iconUrl": "https://shadrinmaxim.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+        "name": "Task",
+        "subtask": false,
+        "avatarId": 10318
+      },
+      "timespent": 7200,
+      "project": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/project/10000",
+        "id": "10000",
+        "key": "TP",
+        "name": "Test Project",
+        "avatarUrls": {
+          "48x48": "https://shadrinmaxim.atlassian.net/secure/projectavatar?avatarId=10324",
+          "24x24": "https://shadrinmaxim.atlassian.net/secure/projectavatar?size=small&avatarId=10324",
+          "16x16": "https://shadrinmaxim.atlassian.net/secure/projectavatar?size=xsmall&avatarId=10324",
+          "32x32": "https://shadrinmaxim.atlassian.net/secure/projectavatar?size=medium&avatarId=10324"
+        }
+      },
+      "fixVersions": [
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/version/10003",
+          "id": "10003",
+          "description": "dsf",
+          "name": "ver1",
+          "archived": false,
+          "released": false,
+          "releaseDate": "2016-02-04"
+        },
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/version/10004",
+          "id": "10004",
+          "name": "ver2",
+          "archived": false,
+          "released": false,
+          "releaseDate": "2016-02-20"
+        }
+      ],
+      "aggregatetimespent": 7200,
+      "resolution": null,
+      "customfield_10104": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=nfxpnk",
+        "name": "nfxpnk",
+        "key": "nfxpnk",
+        "emailAddress": "nfxpnk@gmail.com",
+        "avatarUrls": {
+          "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10335",
+          "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10335",
+          "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10335",
+          "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10335"
+        },
+        "displayName": "Sergey",
+        "active": true,
+        "timeZone": "Europe/Helsinki"
+      },
+      "customfield_10105": [
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=addon_learn-atlassian-connect",
+          "name": "addon_learn-atlassian-connect",
+          "key": "addon_learn-atlassian-connect",
+          "emailAddress": "noreply@mailer.atlassian.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/56348a706ae5ea05f52d9b3c3140cf05?d=mm&s=48",
+            "24x24": "https://secure.gravatar.com/avatar/56348a706ae5ea05f52d9b3c3140cf05?d=mm&s=24",
+            "16x16": "https://secure.gravatar.com/avatar/56348a706ae5ea05f52d9b3c3140cf05?d=mm&s=16",
+            "32x32": "https://secure.gravatar.com/avatar/56348a706ae5ea05f52d9b3c3140cf05?d=mm&s=32"
+          },
+          "displayName": "Learn Atlassian Connect",
+          "active": true,
+          "timeZone": "Europe/Helsinki"
+        },
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=nfxpnk",
+          "name": "nfxpnk",
+          "key": "nfxpnk",
+          "emailAddress": "nfxpnk@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10335",
+            "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10335",
+            "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10335",
+            "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10335"
+          },
+          "displayName": "Sergey",
+          "active": true,
+          "timeZone": "Europe/Helsinki"
+        },
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+          "name": "admin",
+          "key": "admin",
+          "emailAddress": "m.shadrin@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+            "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+            "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+            "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+          },
+          "displayName": "Shadrin Maxim [Administrator]",
+          "active": true,
+          "timeZone": "Europe/Warsaw"
+        }
+      ],
+      "customfield_10106": [
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/version/10003",
+          "id": "10003",
+          "description": "dsf",
+          "name": "ver1",
+          "archived": false,
+          "released": false,
+          "releaseDate": "2016-02-04"
+        },
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/version/10004",
+          "id": "10004",
+          "name": "ver2",
+          "archived": false,
+          "released": false,
+          "releaseDate": "2016-02-20"
+        }
+      ],
+      "customfield_10107": [
+        {
+          "name": "administrators",
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/group?groupname=administrators"
+        },
+        {
+          "name": "jira-administrators",
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/group?groupname=jira-administrators"
+        },
+        {
+          "name": "site-admins",
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/group?groupname=site-admins"
+        }
+      ],
+      "resolutiondate": "2016-02-20T13:06:27.148+0200",
+      "workratio": -1,
+      "lastViewed": "2016-02-20T13:44:10.808+0200",
+      "watches": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issue/TP-5/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2016-02-20T13:06:27.181+0200",
+      "priority": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/priority/2",
+        "iconUrl": "https://shadrinmaxim.atlassian.net/images/icons/priorities/high.svg",
+        "name": "High",
+        "id": "2"
+      },
+      "customfield_10100": [
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/customFieldOption/10101",
+          "value": "No",
+          "id": "10101"
+        },
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/customFieldOption/10102",
+          "value": "None",
+          "id": "10102"
+        }
+      ],
+      "customfield_10101": "2016-02-24T13:04:00.000+0200",
+      "customfield_10102": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/customFieldOption/10103",
+        "value": "val1",
+        "id": "10103"
+      },
+      "labels": [
+        "created",
+        "labe"
+      ],
+      "customfield_10103": null,
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "timeestimate": 0,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/version/10004",
+          "id": "10004",
+          "name": "ver2",
+          "archived": false,
+          "released": false,
+          "releaseDate": "2016-02-20"
+        }
+      ],
+      "issuelinks": [
+        {
+          "id": "10000",
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issueLink/10000",
+          "type": {
+            "id": "10000",
+            "name": "Blocks",
+            "inward": "is blocked by",
+            "outward": "blocks",
+            "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issueLinkType/10000"
+          },
+          "outwardIssue": {
+            "id": "10001",
+            "key": "TP-2",
+            "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issue/10001",
+            "fields": {
+              "summary": "This is test. Please ignore",
+              "status": {
+                "self": "https://shadrinmaxim.atlassian.net/rest/api/2/status/5",
+                "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+                "iconUrl": "https://shadrinmaxim.atlassian.net/images/icons/statuses/resolved.png",
+                "name": "Resolved",
+                "id": "5",
+                "statusCategory": {
+                  "self": "https://shadrinmaxim.atlassian.net/rest/api/2/statuscategory/3",
+                  "id": 3,
+                  "key": "done",
+                  "colorName": "green",
+                  "name": "Done"
+                }
+              },
+              "priority": {
+                "self": "https://shadrinmaxim.atlassian.net/rest/api/2/priority/3",
+                "iconUrl": "https://shadrinmaxim.atlassian.net/images/icons/priorities/medium.svg",
+                "name": "Medium",
+                "id": "3"
+              },
+              "issuetype": {
+                "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issuetype/10002",
+                "id": "10002",
+                "description": "A task that needs to be done.",
+                "iconUrl": "https://shadrinmaxim.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+                "name": "Task",
+                "subtask": false,
+                "avatarId": 10318
+              }
+            }
+          }
+        },
+        {
+          "id": "10002",
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issueLink/10002",
+          "type": {
+            "id": "10002",
+            "name": "Duplicate",
+            "inward": "is duplicated by",
+            "outward": "duplicates",
+            "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issueLinkType/10002"
+          },
+          "outwardIssue": {
+            "id": "10000",
+            "key": "TP-1",
+            "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issue/10000",
+            "fields": {
+              "summary": "test",
+              "status": {
+                "self": "https://shadrinmaxim.atlassian.net/rest/api/2/status/10001",
+                "description": "",
+                "iconUrl": "https://shadrinmaxim.atlassian.net/",
+                "name": "Done",
+                "id": "10001",
+                "statusCategory": {
+                  "self": "https://shadrinmaxim.atlassian.net/rest/api/2/statuscategory/3",
+                  "id": 3,
+                  "key": "done",
+                  "colorName": "green",
+                  "name": "Done"
+                }
+              },
+              "priority": {
+                "self": "https://shadrinmaxim.atlassian.net/rest/api/2/priority/3",
+                "iconUrl": "https://shadrinmaxim.atlassian.net/images/icons/priorities/medium.svg",
+                "name": "Medium",
+                "id": "3"
+              },
+              "issuetype": {
+                "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issuetype/10004",
+                "id": "10004",
+                "description": "A problem which impairs or prevents the functions of the product.",
+                "iconUrl": "https://shadrinmaxim.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+                "name": "Bug",
+                "subtask": false,
+                "avatarId": 10303
+              }
+            }
+          }
+        },
+        {
+          "id": "10001",
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issueLink/10001",
+          "type": {
+            "id": "10002",
+            "name": "Duplicate",
+            "inward": "is duplicated by",
+            "outward": "duplicates",
+            "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issueLinkType/10002"
+          },
+          "inwardIssue": {
+            "id": "10001",
+            "key": "TP-2",
+            "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issue/10001",
+            "fields": {
+              "summary": "This is test. Please ignore",
+              "status": {
+                "self": "https://shadrinmaxim.atlassian.net/rest/api/2/status/5",
+                "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+                "iconUrl": "https://shadrinmaxim.atlassian.net/images/icons/statuses/resolved.png",
+                "name": "Resolved",
+                "id": "5",
+                "statusCategory": {
+                  "self": "https://shadrinmaxim.atlassian.net/rest/api/2/statuscategory/3",
+                  "id": 3,
+                  "key": "done",
+                  "colorName": "green",
+                  "name": "Done"
+                }
+              },
+              "priority": {
+                "self": "https://shadrinmaxim.atlassian.net/rest/api/2/priority/3",
+                "iconUrl": "https://shadrinmaxim.atlassian.net/images/icons/priorities/medium.svg",
+                "name": "Medium",
+                "id": "3"
+              },
+              "issuetype": {
+                "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issuetype/10002",
+                "id": "10002",
+                "description": "A task that needs to be done.",
+                "iconUrl": "https://shadrinmaxim.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+                "name": "Task",
+                "subtask": false,
+                "avatarId": 10318
+              }
+            }
+          }
+        }
+      ],
+      "assignee": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+        "name": "admin",
+        "key": "admin",
+        "emailAddress": "m.shadrin@gmail.com",
+        "avatarUrls": {
+          "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+          "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+          "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+          "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+        },
+        "displayName": "Shadrin Maxim [Administrator]",
+        "active": true,
+        "timeZone": "Europe/Warsaw"
+      },
+      "updated": "2016-02-20T13:44:17.171+0200",
+      "status": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/status/1",
+        "description": "The issue is open and ready for the assignee to start work on it.",
+        "iconUrl": "https://shadrinmaxim.atlassian.net/images/icons/statuses/open.png",
+        "name": "Open",
+        "id": "1",
+        "statusCategory": {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/component/10001",
+          "id": "10001",
+          "name": "comp 2"
+        },
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/component/10000",
+          "id": "10000",
+          "name": "component 1"
+        }
+      ],
+      "timeoriginalestimate": null,
+      "description": "desription",
+      "customfield_10010": null,
+      "customfield_10011": null,
+      "customfield_10012": null,
+      "customfield_10013": "Not started",
+      "customfield_10014": null,
+      "timetracking": {
+        "remainingEstimate": "0m",
+        "timeSpent": "2h",
+        "remainingEstimateSeconds": 0,
+        "timeSpentSeconds": 7200
+      },
+      "customfield_10015": "0|i0000n:",
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "customfield_10008": null,
+      "attachment": [
+        {
+          "self": "https://shadrinmaxim.atlassian.net/rest/api/2/attachment/10000",
+          "id": "10000",
+          "filename": "portal-4.0.2.jar",
+          "author": {
+            "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+            "name": "admin",
+            "key": "admin",
+            "emailAddress": "m.shadrin@gmail.com",
+            "avatarUrls": {
+              "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+              "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+              "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+              "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+            },
+            "displayName": "Shadrin Maxim [Administrator]",
+            "active": true,
+            "timeZone": "Europe/Warsaw"
+          },
+          "created": "2016-02-20T13:04:44.922+0200",
+          "size": 137671,
+          "mimeType": "application/java-archive",
+          "content": "https://shadrinmaxim.atlassian.net/secure/attachment/10000/portal-4.0.2.jar"
+        }
+      ],
+      "customfield_10009": null,
+      "aggregatetimeestimate": 0,
+      "summary": "summary",
+      "creator": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+        "name": "admin",
+        "key": "admin",
+        "emailAddress": "m.shadrin@gmail.com",
+        "avatarUrls": {
+          "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+          "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+          "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+          "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+        },
+        "displayName": "Shadrin Maxim [Administrator]",
+        "active": true,
+        "timeZone": "Europe/Warsaw"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+        "name": "admin",
+        "key": "admin",
+        "emailAddress": "m.shadrin@gmail.com",
+        "avatarUrls": {
+          "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+          "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+          "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+          "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+        },
+        "displayName": "Shadrin Maxim [Administrator]",
+        "active": true,
+        "timeZone": "Europe/Warsaw"
+      },
+      "customfield_10000": null,
+      "aggregateprogress": {
+        "progress": 7200,
+        "total": 7200,
+        "percent": 100
+      },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": "2016-02-29",
+      "progress": {
+        "progress": 7200,
+        "total": 7200,
+        "percent": 100
+      },
+      "comment": {
+        "startAt": 0,
+        "maxResults": 0,
+        "total": 0,
+        "comments": []
+      },
+      "votes": {
+        "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issue/TP-5/votes",
+        "votes": 0,
+        "hasVoted": false
+      },
+      "worklog": {
+        "startAt": 0,
+        "maxResults": 20,
+        "total": 1,
+        "worklogs": [
+          {
+            "self": "https://shadrinmaxim.atlassian.net/rest/api/2/issue/10100/worklog/10103",
+            "author": {
+              "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+              "name": "admin",
+              "key": "admin",
+              "emailAddress": "m.shadrin@gmail.com",
+              "avatarUrls": {
+                "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+                "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+                "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+                "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+              },
+              "displayName": "Shadrin Maxim [Administrator]",
+              "active": true,
+              "timeZone": "Europe/Warsaw"
+            },
+            "updateAuthor": {
+              "self": "https://shadrinmaxim.atlassian.net/rest/api/2/user?username=admin",
+              "name": "admin",
+              "key": "admin",
+              "emailAddress": "m.shadrin@gmail.com",
+              "avatarUrls": {
+                "48x48": "https://shadrinmaxim.atlassian.net/secure/useravatar?avatarId=10346",
+                "24x24": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=small&avatarId=10346",
+                "16x16": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=xsmall&avatarId=10346",
+                "32x32": "https://shadrinmaxim.atlassian.net/secure/useravatar?size=medium&avatarId=10346"
+              },
+              "displayName": "Shadrin Maxim [Administrator]",
+              "active": true,
+              "timeZone": "Europe/Warsaw"
+            },
+            "comment": "work descr",
+            "created": "2016-02-20T13:06:27.131+0200",
+            "updated": "2016-02-20T13:06:27.131+0200",
+            "started": "2016-02-20T13:04:00.000+0200",
+            "timeSpent": "2h",
+            "timeSpentSeconds": 7200,
+            "id": "10103",
+            "issueId": "10100"
+          }
+        ]
+      }
+    }
+  },
+  "changelog": {
+    "id": "10111",
+    "items": [
+      {
+        "field": "Version",
+        "fieldtype": "jira",
+        "from": null,
+        "fromString": null,
+        "to": "10004",
+        "toString": "ver2"
+      }
+    ]
+  }
+}

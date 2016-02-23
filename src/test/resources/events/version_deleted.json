@@ -1,0 +1,40 @@
+{
+  "timestamp": 1455984997090,
+  "webhookEvent": "jira:version_deleted",
+  "version": {
+    "self": "https://shadrinmaxim.atlassian.net/rest/api/2/version/10004",
+    "id": "10004",
+    "description": "desk",
+    "name": "ver2",
+    "archived": false,
+    "released": true,
+    "overdue": false,
+    "userStartDate": "10/Feb/16",
+    "userReleaseDate": "20/Feb/16",
+    "projectId": 10000
+  },
+  "affectsVersionSwappedTo": {
+    "self": "https://shadrinmaxim.atlassian.net/rest/api/2/version/10005",
+    "id": "10005",
+    "description": "sdfsdf",
+    "name": "sdfds",
+    "archived": false,
+    "released": true,
+    "overdue": false,
+    "userStartDate": "18/Feb/16",
+    "userReleaseDate": "26/Feb/16",
+    "projectId": 10000
+  },
+  "fixVersionSwappedTo": {
+    "self": "https://shadrinmaxim.atlassian.net/rest/api/2/version/10005",
+    "id": "10005",
+    "description": "sdfsdf",
+    "name": "sdfds",
+    "archived": false,
+    "released": true,
+    "overdue": false,
+    "userStartDate": "18/Feb/16",
+    "userReleaseDate": "26/Feb/16",
+    "projectId": 10000
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": 1455653451274,
+  "webhookEvent": "jira:version_created",
+  "version": {
+    "self": "http://localhost:2990/jira/rest/api/2/version/10000",
+    "id": "10000",
+    "description": "asdd",
+    "name": "version",
+    "archived": false,
+    "released": false,
+    "overdue": false,
+    "userStartDate": "16/Feb/16",
+    "userReleaseDate": "16/Feb/16",
+    "projectId": 10000
+  }
+}
